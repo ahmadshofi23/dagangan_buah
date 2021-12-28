@@ -1,3 +1,5 @@
+import 'package:dagangan_buah/ui/pages/home_page.dart';
+import 'package:dagangan_buah/ui/pages/main_page.dart';
 import 'package:dagangan_buah/ui/pages/splash_page.dart';
 import 'package:flutter/material.dart';
 
@@ -15,6 +17,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         '/': (context) => SplashPage(),
+        '/main': (context) => MainPage(),
+        '/home': (context) => HomePage(),
       },
     );
   }

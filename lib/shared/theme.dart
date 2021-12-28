@@ -9,8 +9,12 @@ Color kgreyColor = Color(0xffFCFCFC);
 Color ktextColor = Color(0xffFFF9FF);
 Color kgrey2Color = Color(0xff828282);
 Color kblackColor = Color(0xff030303);
+Color textfieldfill = Color(0xffF2F3F2);
+Color kuningmuda = Color(0xffF8A44C);
 
 TextStyle blackTextStyle = GoogleFonts.rubik(color: kblackColor);
+TextStyle greyTextStyle = GoogleFonts.rubik(color: kgrey2Color);
+TextStyle greenTextStyle = GoogleFonts.rubik(color: kgreenColor);
 
 FontWeight light = FontWeight.w300;
 FontWeight reguler = FontWeight.w400;
