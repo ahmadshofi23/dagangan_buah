@@ -2,6 +2,7 @@ import 'package:dagangan_buah/cubit/page_cubit.dart';
 import 'package:dagangan_buah/shared/theme.dart';
 import 'package:dagangan_buah/ui/pages/account_page.dart';
 import 'package:dagangan_buah/ui/pages/cart_page.dart';
+import 'package:dagangan_buah/ui/pages/detail_page.dart';
 import 'package:dagangan_buah/ui/pages/explore_page.dart';
 import 'package:dagangan_buah/ui/pages/favorit_page.dart';
 import 'package:dagangan_buah/ui/pages/home_page.dart';

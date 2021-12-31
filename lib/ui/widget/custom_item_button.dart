@@ -31,19 +31,19 @@ class CustomItemButton extends StatelessWidget {
               ),
               width: 30,
               height: 30,
-              // color: kwhiteColor,
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: AssetImage(
-                    imageUrl,
-                  ),
-                ),
-              ),
+              child: Image.asset(imageUrl,
+                  width: 30,
+                  height: 30,
+                  color: context.read<PageCubit>().state == index
+                      ? kgreenColor
+                      : kblackColor),
             ),
             SizedBox(height: 4),
             Text(
               title,
-              style: blackTextStyle.copyWith(fontWeight: bold),
+              style: context.read<PageCubit>().state == index
+                  ? greenTextStyle.copyWith(fontWeight: bold)
+                  : blackTextStyle.copyWith(fontWeight: bold),
             ),
           ],
         ),

@@ -13,6 +13,7 @@ Color textfieldfill = Color(0xffF2F3F2);
 Color kuningmuda = Color(0xffF8A44C);
 
 TextStyle blackTextStyle = GoogleFonts.rubik(color: kblackColor);
+TextStyle whiteTextStyle = GoogleFonts.rubik(color: kwhiteColor);
 TextStyle greyTextStyle = GoogleFonts.rubik(color: kgrey2Color);
 TextStyle greenTextStyle = GoogleFonts.rubik(color: kgreenColor);
 
